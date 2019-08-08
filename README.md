@@ -2,7 +2,10 @@
 
 
 file -> datamunging.py contains the solution of both questions. (Part one and part two)
+
      -> weather_solution_pandas.py conatins solution of part one using pandas.
+     
+
 
 
 # Part One: Weather Data
