@@ -1,0 +1,25 @@
+Q. CHECK Equality in strings without using count variable and length of string given.
+====================================================================================
+
+
+suppose a string -> s = 'baababbbaaba'
+
+solution-1
+----------
+by using count() function we can get as below
+
+s.count('a')==s.count('b')
+
+-> It will return True if occurance of both a and b are same else False
+
+
+
+
+solution-2
+----------
+by using regex we can find occurance of each characters in a string as below-
+
+len(re.findall("a",s)) == len(re.findall("b", s)) 
+
+-> it will return True if occurance of both a and b are same else False
+	
